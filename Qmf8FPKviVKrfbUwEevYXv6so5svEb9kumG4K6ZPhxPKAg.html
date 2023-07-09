@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://ipfs-cluster.ethdevops.io/ipfs/Qmf8FPKviVKrfbUwEevYXv6so5svEb9kumG4K6ZPhxPKAg/ -->
+<html lang="en" style="--theme: dark; --brightness: dark;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./remix-dark_tvx1s2.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="module" src="./index.js.download"></script>
+    <title>One Click Dapp Plugin</title>
+  </head>
+  <body>
+    <one-click-dapp><!---->
+      <style>
+        main {
+          padding: 10px;
+        }
+        #alerts {
+          margin-top: 20px;
+          font-size: 0.8rem;
+        }
+        .alert {
+          animation: enter 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        @keyframes enter {
+          0% {
+            opacity: 0;
+            transform: translateY(50px) scaleY(1.2);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0) scaleY(1);
+          }
+        }
+      </style>
+      <main>
+        <h4>Let's make it <b>Persistent</b></h4>
+        <div style="margin: 10px 0  0 0" id="form"><!---->
+      <div>
+        <div class="form-group">
+          <label for="dappContracts">Available Contracts:</label>
+          
+          <div class="list-group-item">
+            None found, please compile a contract using the Solidity Compiler
+            tab <img src="./compiler.png" width="30">
+          </div>
+        
+        </div>
+        <div class="form-group">
+          <label for="dappName">Name: </label>
+          <input type="text" class="form-control" id="dappName" disabled="" value="">
+        </div>
+        <div class="form-group">
+          <label for="dappAddress">Deployed Address: </label>
+          <input type="text" class="form-control" id="dappAddress" placeholder="0xabc..." disabled="">
+        </div>
+        <button type="submit" style="margin:10px 0 3px 0" class="btn btn-lg btn-primary mb-2" disabled="">
+          Generate Dapp
+        </button>
+      </div>
+    <!----></div>
+        <div id="alerts" style="margin: 0 0  0 0"><!---->
+      <div role="alert" class="alert alert-undefined" hidden="">
+        <img style="margin: 0 0 0 0" src="./chelsea.png" width="50"> 
+      </div>
+    <!----></div>
+        <h4 style="margin: 10px 0  0 0">Your Dapps:</h4>
+        <h6>
+          <a href="https://oneclickdapp.com/new" target="_blank">view recent</a>
+        </h6>
+        <div class="list-group" id="dapps"><!----><!----></div>
+      </main>
+    <!----></one-click-dapp>
+  
+
+</body></html>

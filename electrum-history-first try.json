@@ -1,0 +1,32 @@
+[
+    {
+        "bc_balance": "0.00063347",
+        "bc_value": "0.00063347",
+        "confirmations": 167,
+        "date": "2023-07-06 01:31",
+        "fee": null,
+        "fee_sat": null,
+        "height": 797402,
+        "incoming": true,
+        "label": "win777.us",
+        "monotonic_timestamp": 1688625070,
+        "timestamp": 1688625070,
+        "txid": "3bbdef164be1dc08b0d8a3ecdb0cf613661e9f7e70b61430525d057f45a0759c",
+        "txpos_in_block": 1222
+    },
+    {
+        "bc_balance": "0.",
+        "bc_value": "-0.00063347",
+        "confirmations": 140,
+        "date": "2023-07-06 06:45",
+        "fee": "0.00001347",
+        "fee_sat": 1347,
+        "height": 797429,
+        "incoming": false,
+        "label": "",
+        "monotonic_timestamp": 1688643931,
+        "timestamp": 1688643931,
+        "txid": "78601007c30b5ebff7eb5a820d61ff7946b7b381d411c9dcf875acbe4b548bf4",
+        "txpos_in_block": 661
+    }
+]
